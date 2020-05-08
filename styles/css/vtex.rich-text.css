@@ -4,3 +4,7 @@
   padding-left: 10px;
   text-align: center;
 }
+.paragraph--empresa-titulo{
+  text-transform: uppercase;
+  font-size: 12px;
+}
