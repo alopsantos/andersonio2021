@@ -1,15 +1,175 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "flex-layout.row#categorias",
+      "flex-layout.row#banner",
+      "shelf#novidades",
+      "shelf#promocoes",
+      "newsletter",
+      "flex-layout.row#social"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
+  "flex-layout.row#categorias": {
+    "children": [
+      "flex-layout.col#categoria",
+      "slider-layout#categorias"
+    ]
+  },
+  "flex-layout.col#categoria":{
+    "children":["rich-text#categorias"]
+  },
+  "rich-text#categorias": {
+    "props": {
       "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "textPosition": "LEFT",
+      "text": "Categorias",
+      "blockClass": "rich-home-categoria"
+    }
+  },
+  "slider-layout#categorias": {
+    "children": [
+      "image#categoriavestido",
+      "image#categoriablusas",
+      "image#categoriatshirt",
+      "image#categoriacamisa",
+      "image#categoriashorts"
+    ],
+    "props": {
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "itemsPerPage": {
+        "desktop": 10,
+        "tablet": 8,
+        "phone": 4
+      }
+    }
+  },
+  "image#categoriavestido": {
+    "props": {
+      "src": "https://i3.wp.com/ae01.alicdn.com/kf/HTB1L1IneL1H3KVjSZFBq6zSMXXaM/Johnature-ver%C3%A3o-vestido-feminino-2020-novo-estilo-coreano-casual-solto-cor-s%C3%B3lida-sem-mangas-gola-quadrada.jpg",
+      "srcset": "https://i3.wp.com/ae01.alicdn.com/kf/HTB1L1IneL1H3KVjSZFBq6zSMXXaM/Johnature-ver%C3%A3o-vestido-feminino-2020-novo-estilo-coreano-casual-solto-cor-s%C3%B3lida-sem-mangas-gola-quadrada.jpg",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "categorias-home",
+      "maxWidth": 100
+    }
+  },
+  "image#categoriablusas": {
+    "props": {
+      "src": "https://capitollium.fbitsstatic.net/img/p/blusa-basica-quadrada-com-abertura-lateral-papaya-148503/269408.jpg?w=460&h=460&v=no-change",
+      "srcset": "https://capitollium.fbitsstatic.net/img/p/blusa-basica-quadrada-com-abertura-lateral-papaya-148503/269408.jpg?w=460&h=460&v=no-change",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "categorias-home",
+      "maxWidth": 100
+    }
+  },
+  "image#categoriatshirt": {
+    "props": {
+      "src": "https://capitollium.fbitsstatic.net/img/p/t-shirt-quadrada-com-dois-bolsos-off-white-148043/268085.jpg?w=460&h=460&v=no-change",
+      "srcset": "https://capitollium.fbitsstatic.net/img/p/t-shirt-quadrada-com-dois-bolsos-off-white-148043/268085.jpg?w=460&h=460&v=no-change",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "categorias-home",
+      "maxWidth": 100
+    }
+  },
+  "image#categoriacamisa": {
+    "props": {
+      "src": "https://img.freepik.com/fotos-gratis/piramide-quadrada-cor-de-rosa-no-fundo-cor-de-rosa-ideia-de-conceito-minimo_40193-79.jpg?size=338&ext=jpg",
+      "srcset": "https://img.freepik.com/fotos-gratis/piramide-quadrada-cor-de-rosa-no-fundo-cor-de-rosa-ideia-de-conceito-minimo_40193-79.jpg?size=338&ext=jpg",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "categorias-home",
+      "maxWidth": 100
+    }
+  },
+  "image#categoriashorts": {
+    "props": {
+      "src": "https://cdnv2.moovin.com.br/confidencialextra/imagens/produtos/det/cinto-feminino-medio-com-fivela-quadrada-plus-size-4757716c280985fedfeb79f22a267a27.jpg",
+      "srcset": "https://cdnv2.moovin.com.br/confidencialextra/imagens/produtos/det/cinto-feminino-medio-com-fivela-quadrada-plus-size-4757716c280985fedfeb79f22a267a27.jpg",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "categorias-home",
+      "maxWidth": 100
+    }
+  },
+  "flex-layout.row#banner": {
+    "children": [
+      "image#banner1",
+      "image#banner2",
+      "image#banner3",
+      "image#banner4"
+    ]
+  },
+  "image#banner1": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193307/Dia-das-Maes-Estacao-Store-2020.jpg?v=637232381992630000",
+      "srcset": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/192985-331-440/Blazer-Maxi-Barcelona-Vermelho02-1-.jpg?v=637220500942230000",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "bannerhome"
+    }
+  },
+  "image#banner2": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193308/O-Presente-Perfeito-Estacao-Store-2020.jpg?v=637232383115000000",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "bannerhome"
+    }
+  },
+  "image#banner3": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193309/Para-Alguem-Muito-Especial-Maes-Estacao-Store-2020.jpg?v=637232385596630000",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "bannerhome"
+    }
+  },
+  "image#banner4": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193310/Dia-Das-Maes-Aline-Mezzari-Brand-2020.jpg?v=637232451557430000",
+      "link": "#",
+      "alt": "Estacao Store - 2020",
+      "blockClass": "bannerhome"
+    }
+  },
+  "flex-layout.row#social": {
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#pinterst",
+      "image#atacado"
+    ]
+  },
+  "image#facebook": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169749/facebook.jpg?v=636806490850700000",
+      "link": "#",
+      "alt": "Estacao Store - 2020"
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169750/instagram.jpg?v=636806491198200000",
+      "link": "#",
+      "alt": "Estacao Store - 2020"
+    }
+  },
+  "image#pinterst": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169751/pinterest.jpg?v=636806491470200000",
+      "link": "#",
+      "alt": "Estacao Store - 2020"
+    }
+  },
+  "image#atacado": {
+    "props": {
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169752/atacado.jpg?v=636806491683200000",
+      "link": "#",
+      "alt": "Estacao Store - 2020"
     }
   }
 }
