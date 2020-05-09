@@ -37,7 +37,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Estação Store Comercio Artigos do Vestuario \n Rua dos estudantes, 1906, sala 01 | Santa Terezinha de Itaipu - Pr | Cnpj 72044290000186",
+      "text": "Estação Store Comercio Artigos do Vestuario \n Rua dos estudantes, 1906, sala 01 | Santa Terezinha de Itaipu - Pr \n Cnpj 72044290000186",
       "textColor": "c-on-emphasis",
       "blockClass": "empresa-titulo"
     }
