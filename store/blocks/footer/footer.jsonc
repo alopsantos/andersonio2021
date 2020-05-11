@@ -5,6 +5,7 @@
       "footer-layout.mobile"
     ]
   },
+//Desktop +++++++++++++++++
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#logo",
@@ -13,6 +14,7 @@
       "flex-layout.row#footer-empresa"
     ]
   },
+//logo
   "flex-layout.row#logo": {
     "children": [
       "flex-layout.col#logo-footer"
@@ -30,6 +32,9 @@
       "maxWidth": 205
     }
   },
+//logo
+
+//menu
   "flex-layout.row#footer-menu": {
     "children": [
       "vtex.menu@2.x:menu#footer-menu"
@@ -38,8 +43,12 @@
       "blockClass": "als-footer-menu"
     }
   },
+//menu
+
   "flex-layout.col#footer-left-desktop": {},
   "flex-layout.col#footer-right-desktop": {},
+
+//footer empresa
   "flex-layout.row#footer-empresa": {
     "children": [
       "rich-text#empresa",
@@ -47,7 +56,7 @@
       "powered-by"
     ],
     "props": {
-      "blockClass": "empresa-footer-als"
+      "blockClass": "als-footer-empresa"
     }
   },
   "rich-text#empresa": {
@@ -73,6 +82,9 @@
       "blockClass": "als-poweredby"
     }
   },
+//footer empresa
+
+//footer social
   "flex-layout.row#footer": {
     "children": [
       "flex-layout.row#footer-social"
@@ -84,11 +96,6 @@
   "flex-layout.row#footer-social": {
     "children": [
       "social-networks",
-      "accepted-payment-methods"
-    ]
-  },
-  "flex-layout.row#footer-desktop": {
-    "children": [
       "accepted-payment-methods"
     ]
   },
@@ -123,5 +130,90 @@
       ]
     }
   },
-  "footer-layout.mobile": {}
+//footer social
+//desktop ++++++++++++++++++
+
+
+//mobile
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#logo",
+      "flex-layout.row#footer-menu-mobile",
+      "flex-layout.row#footer-social-mobile",
+      "flex-layout.row#footer-empresa-mobile"
+    ]
+  },
+
+//footer menu mobile
+"flex-layout.row#footer-menu-mobile":{
+
+},
+//footer menu mobile
+
+//footer social mobile
+"flex-layout.row#footer-social-mobile":{
+  "children": [
+    "flex-layout.col#social"
+  ]
+},
+"flex-layout.col#social":{
+  "children":["social-networks#mobile"]
+},
+"social-networks#mobile": {
+  "props": {
+    "socialNetworks": [
+      {
+        "url": "https://facebook.com/foo",
+        "name": "Facebook"
+      },
+      {
+        "url": "https://twitter.com/foo",
+        "name": "Twitter"
+      },
+      {
+        "url": "https://twitter.com/foo",
+        "name": "Youtube"
+      },
+      {
+        "url": "https://twitter.com/foo",
+        "name": "Pinterest"
+      }
+    ],
+    "blockClass": "als-footer-social-mobile"
+  }
+},
+"flex-layout.col#pagamentos":{
+  "children":["accepted-payment-methods"]
+},
+//footer social mobile
+
+//footer empresa
+"flex-layout.row#footer-empresa-mobile":{
+  "children": [
+    "rich-text#empresa-mobile",
+    "rich-text#creditos",
+    "powered-by#mobile"
+  ],
+  "props": {
+    "blockClass": "als-footer-empresa-mobile"
+  }
+},
+"rich-text#empresa-mobile": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Estação Store Comercio Artigos do Vestuario \n Rua dos estudantes, 1906, sala 01 | Santa Terezinha de Itaipu - Pr \n Cnpj 72044290000186",
+    "textColor": "c-on-emphasis",
+    "blockClass": "empresa-titulo"
+  }
+},
+"powered-by#mobile": {
+  "props": {
+    "blockClass": "als-poweredby-mobile"
+  }
+}
+//footer empresa
+
+
+//mobile
 }

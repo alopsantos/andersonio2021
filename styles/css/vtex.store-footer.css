@@ -3,3 +3,8 @@
     padding-top: 10px;
     float: right;
 }
+.poweredByImage--als-poweredby-mobile{
+    margin: 0 auto;
+    max-width: 80px;
+    padding-top: 10px;
+}

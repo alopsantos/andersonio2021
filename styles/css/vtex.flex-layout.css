@@ -6,7 +6,7 @@
     background-color: rgba(204, 204, 204, 0.575);
     padding: 10px;
 }
-.flexRow--empresa-footer-als{
+.flexRow--als-footer-empresa, .flexRow--als-footer-empresa-mobile{
     background-color: #FEAEDA;   
 }
 .flexRow--als-footer-menu{
