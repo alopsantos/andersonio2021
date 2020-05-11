@@ -3,4 +3,5 @@
     font-size: 1.2rem;
     vertical-align: middle;
     height: 3.5rem;
+    -webkit-font-smoothing: antialiased;
 }

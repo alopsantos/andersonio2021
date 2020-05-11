@@ -161,8 +161,8 @@
   },
   "image#banner1": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193307/Dia-das-Maes-Estacao-Store-2020.jpg?v=637232381992630000",
-      "srcset": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/192985-331-440/Blazer-Maxi-Barcelona-Vermelho02-1-.jpg?v=637220500942230000",
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193829/Novidades-Outono-EstacaoStore-2020.jpg",
+      "srcset": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193829/Novidades-Outono-EstacaoStore-2020.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
       "blockClass": "bannerhome"
@@ -170,7 +170,7 @@
   },
   "image#banner2": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193308/O-Presente-Perfeito-Estacao-Store-2020.jpg?v=637232383115000000",
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193830/Outono-Estacao-Store-2020.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
       "blockClass": "bannerhome"
@@ -178,7 +178,7 @@
   },
   "image#banner3": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193309/Para-Alguem-Muito-Especial-Maes-Estacao-Store-2020.jpg?v=637232385596630000",
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193831/Outono-2020.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
       "blockClass": "bannerhome"
@@ -186,7 +186,7 @@
   },
   "image#banner4": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193310/Dia-Das-Maes-Aline-Mezzari-Brand-2020.jpg?v=637232451557430000",
+      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193832/Aline-Mezzari-Brand-Outono-2020.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
       "blockClass": "bannerhome"

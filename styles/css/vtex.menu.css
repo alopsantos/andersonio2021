@@ -27,9 +27,11 @@
 
 .styledLinkIcon--menu-categoria-icone .rebel-pink {
     color: green !important;
+    -webkit-font-smoothing: antialiased;
 }
 
 .styledLinkContent--menu-categoria-icone {
+    -webkit-font-smoothing: antialiased;
     display: block !important;
     font-size: 12px;
     color: #ef1c8f;
@@ -47,6 +49,7 @@
     font-weight: bold;
     font-size: 16px;
     text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
 }
 .menuContainer--als-footer-menu{
     justify-content: space-evenly;

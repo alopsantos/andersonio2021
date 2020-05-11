@@ -17,3 +17,7 @@
     padding: 20px 0;
     border-bottom: 1px solid #ccc;
 }
+.flexCol--als-footer-col-social-mobile{
+    align-items: center;
+    margin: 20px 0;
+}

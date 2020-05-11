@@ -12,26 +12,25 @@
       "menu-item#revenda"
     ]
   },
-
   //menu 
   "menu-item#institucional": {
     "props": {
       "orientation": "vertical",
       "blockClass": "als-footer-menu-titulo",
-      "itemProps":{
+      "itemProps": {
         "type": "internal",
         "text": "Institucional",
         "tagTitle": "Institucional",
-        "noFollow":false,
-        "href":"#"
+        "noFollow": false,
+        "href": "#"
       }
     },
-    "children":[
+    "children": [
       "menu-item#institucional-sobrenos",
       "menu-item#institucional-alinemezzari"
     ]
   },
-  "menu-item#institucional-sobrenos":{
+  "menu-item#institucional-sobrenos": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -46,7 +45,7 @@
       }
     }
   },
-  "menu-item#institucional-alinemezzari":{
+  "menu-item#institucional-alinemezzari": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -61,26 +60,25 @@
       }
     }
   },
-
-//menu
+  //menu
   "menu-item#minhaconta": {
     "props": {
       "orientation": "vertical",
       "blockClass": "als-footer-menu-titulo",
-      "itemProps":{
+      "itemProps": {
         "type": "internal",
         "text": "Minha Conta",
         "tagTitle": "Minha Conta",
-        "noFollow":false,
-        "href":"#"
+        "noFollow": false,
+        "href": "#"
       }
     },
-    "children":[
+    "children": [
       "menu-item#minhaconta-perfil",
       "menu-item#minhaconta-pedidos"
     ]
   },
-  "menu-item#minhaconta-perfil":{
+  "menu-item#minhaconta-perfil": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -95,7 +93,7 @@
       }
     }
   },
-  "menu-item#minhaconta-pedidos":{
+  "menu-item#minhaconta-pedidos": {
     "props": {
       "id": "minhaconta-pedidos",
       "type": "custom",
@@ -110,27 +108,26 @@
       }
     }
   },
-
-//menu 
+  //menu 
   "menu-item#politicas": {
     "props": {
       "orientation": "vertical",
       "blockClass": "als-footer-menu-titulo",
-      "itemProps":{
+      "itemProps": {
         "type": "internal",
         "text": "Políticas",
         "tagTitle": "Políticas",
-        "noFollow":false,
-        "href":"#"
+        "noFollow": false,
+        "href": "#"
       }
     },
-    "children":[
+    "children": [
       "menu-item#politicas-privacidade",
       "menu-item#politicas-devolucoes",
       "menu-item#politicas-trocas"
     ]
   },
-  "menu-item#politicas-privacidade":{
+  "menu-item#politicas-privacidade": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -145,7 +142,7 @@
       }
     }
   },
-  "menu-item#politicas-devolucoes":{
+  "menu-item#politicas-devolucoes": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -160,7 +157,7 @@
       }
     }
   },
-  "menu-item#politicas-trocas":{
+  "menu-item#politicas-trocas": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -175,27 +172,26 @@
       }
     }
   },
-
-//menu
-  "menu-item#ajuda":{
+  //menu
+  "menu-item#ajuda": {
     "props": {
       "orientation": "vertical",
       "blockClass": "als-footer-menu-titulo",
-      "itemProps":{
+      "itemProps": {
         "type": "internal",
         "text": "Ajuda",
         "tagTitle": "Ajuda",
-        "noFollow":false,
-        "href":"#"
+        "noFollow": false,
+        "href": "#"
       }
     },
-    "children":[
+    "children": [
       "menu-item#ajuda-guiamedidas",
       "menu-item#ajuda-mapasite",
       "menu-item#ajuda-contatos"
     ]
   },
-  "menu-item#ajuda-guiamedidas":{
+  "menu-item#ajuda-guiamedidas": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -210,7 +206,7 @@
       }
     }
   },
-  "menu-item#ajuda-mapasite":{
+  "menu-item#ajuda-mapasite": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -225,7 +221,7 @@
       }
     }
   },
-  "menu-item#ajuda-contatos":{
+  "menu-item#ajuda-contatos": {
     "props": {
       "id": "minhaconta-perfil",
       "type": "custom",
@@ -240,37 +236,36 @@
       }
     }
   },
-
-//menu 
-"menu-item#revenda":{
-  "props": {
-    "orientation": "vertical",
-    "blockClass": "als-footer-menu-titulo",
-    "itemProps":{
-      "type": "internal",
-      "text": "Compra Para Revenda",
-      "tagTitle": "Compra Para Revenda",
-      "noFollow":false,
-      "href":"#"
-    }
+  //menu 
+  "menu-item#revenda": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "als-footer-menu-titulo",
+      "itemProps": {
+        "type": "internal",
+        "text": "Compra Para Revenda",
+        "tagTitle": "Compra Para Revenda",
+        "noFollow": false,
+        "href": "#"
+      }
+    },
+    "children": [
+      "menu-item#comprarevenda-atacado"
+    ]
   },
-  "children":[
-    "menu-item#comprarevenda-atacado"
-  ]
-},
-"menu-item#comprarevenda-atacado":{
-  "props": {
-    "id": "minhaconta-perfil",
-    "type": "custom",
-    "iconId": null,
-    "highlight": false,
-    "itemProps": {
-      "type": "internal",
-      "href": "/decoration/alinemezzari",
-      "noFollow": true,
-      "tagTitle": "Atacado",
-      "text": "Atacado"
+  "menu-item#comprarevenda-atacado": {
+    "props": {
+      "id": "minhaconta-perfil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoration/alinemezzari",
+        "noFollow": true,
+        "tagTitle": "Atacado",
+        "text": "Atacado"
+      }
     }
   }
-}
 }
