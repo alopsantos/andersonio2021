@@ -42,3 +42,12 @@
 .styledLinkIcon--menu-categoria-icone .activeClassName {
     display: block;
 }
+.styledLinkContent--als-footer-menu-titulo{
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.menuContainer--als-footer-menu{
+    justify-content: space-evenly;
+}

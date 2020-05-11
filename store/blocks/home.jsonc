@@ -5,8 +5,8 @@
       "flex-layout.row#banner",
       "shelf#novidades",
       "shelf#promocoes",
-      "newsletter",
-      "flex-layout.row#social"
+      "flex-layout.row#social",
+      "newsletter"
     ]
   },
   "flex-layout.row#categorias": {

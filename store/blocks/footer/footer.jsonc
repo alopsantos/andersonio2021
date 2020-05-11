@@ -7,15 +7,32 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#logo",
       "flex-layout.row#footer-menu",
       "flex-layout.row#footer",
       "flex-layout.row#footer-empresa"
     ]
   },
+  "flex-layout.row#logo": {
+    "children": [
+      "flex-layout.col#logo-footer"
+    ]
+  },
+  "flex-layout.col#logo-footer": {
+    "children": [
+      "image"
+    ],
+    "props":{"blockClass":"als-footer-logo"}
+  },
+  "image": {
+    "props": {
+      "src": "assets/estacaostorelogo.svg",
+      "maxWidth": 205
+    }
+  },
   "flex-layout.row#footer-menu": {
     "children": [
-      "flex-layout.col#footer-left-desktop",
-      "flex-layout.col#footer-right-desktop"
+      "vtex.menu@2.x:menu#footer-menu"
     ],
     "props": {
       "blockClass": "als-footer-menu"

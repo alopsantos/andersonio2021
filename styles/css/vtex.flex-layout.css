@@ -12,3 +12,8 @@
 .flexRow--als-footer-menu{
     min-height: 280px;
 }
+.flexColChild--als-footer-logo{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
