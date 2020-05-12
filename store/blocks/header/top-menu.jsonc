@@ -1,7 +1,8 @@
 {
     "vtex.menu@2.x:menu#websites": {
         "children": [
-            "menu-item#novidades"
+            "menu-item#novidades",
+            "menu-item#promocoes"
         ]
     },
     "menu-item#novidades": {
@@ -16,6 +17,41 @@
                 "noFollow": false,
                 "tagTitle": "Novidades",
                 "text": "Nividades"
+            }
+        }
+    },
+    "menu-item#promocoes": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Promoções",
+                "text": "Promoções"
+            }
+        }
+    },
+
+
+    "vtex.menu@2.x:menu#menu-usuario":{
+        "children":["menu-item#contato"]
+    },
+    "menu-item#contato": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "(45) 3541-2940",
+                "text": "(45) 3541-2940"
             }
         }
     }

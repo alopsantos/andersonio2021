@@ -46,8 +46,7 @@
   "flex-layout.row#footer-3-desktop": {
     "children": [
       "social-networks"
-    ],
-    "props":{"margin": "0 auto"}
+    ]
   },
   "social-networks": {
     "props": {

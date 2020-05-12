@@ -1,9 +1,15 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
@@ -13,29 +19,57 @@
     ]
   },
 
-  "flex-layout.row#1-desktop":{
-    "children":["notification.bar#home"],
-    "props":{
+
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "notification.bar#ambiente",
+      "notification.bar#instagram",
+      "notification.bar#entrega",
+      "notification.bar#duvidas"
+    ],
+    "props": {
       "fullWidth": "true"
     }
   },
-  "notification.bar#home":{
-    "props":{
+  "notification.bar#ambiente": {
+    "props": {
       "content": "Compras em ambiente 100% seguro"
     }
   },
+  "notification.bar#instagram": {
+    "props": {
+      "content": "Marque nosso instagram nas fotos do seu look!"
+    }
+  },
+  "notification.bar#entrega": {
+    "props": {
+      "content": "Entregamos para todo o território brasileiro"
+    }
+  },
+  "notification.bar#duvidas": {
+    "props": {
+      "content": "Tire suas dúvidas, fale conosco no chat"
+    }
+  },
 
-  "flex-layout.row#2-desktop":{
-    "children":[
+
+
+  "flex-layout.row#2-desktop": {
+    "children": [
       "flex-layout.col#logo-desktop",
       "search-bar",
+      "flex-layout.col#menu-usuario",
       "login",
       "minicart.v2"
     ]
   },
-  "flex-layout.col#logo-desktop":{
-    "props":{"verticalAlign": "middle"},
-    "children": ["logo#desktop"]
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
   },
   "logo#desktop": {
     "props": {
@@ -45,24 +79,32 @@
       "width": "205"
     }
   },
-  "flex-layout.col#spacer":{
+  "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
   },
+  "flex-layout.col#menu-usuario": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-usuario"
+    ]
+  },
 
 
-  "sticky-layout#3-deskotp":{
-    "props":{
+
+  "sticky-layout#3-deskotp": {
+    "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#3-desktop"]
+    "children": [
+      "flex-layout.row#3-desktop"
+    ]
   },
-  "flex-layout.row#3-desktop":{
-    "props":{
+  "flex-layout.row#3-desktop": {
+    "props": {
       "blockClass": "main-header",
       "horizontalAlign": "center",
-      "verticalAlign":"center",
+      "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
@@ -70,7 +112,51 @@
     "children": [
       "vtex.menu@2.x:menu#websites"
     ]
+  },
+
+
+  "header-layout.mobile":{
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile":{
+    "children":["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile":{
+    "children":[
+      "flex-layout.col#drawer",
+      "flex-layout.col#logo-mobile",      
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer":{
+    "children": ["drawer"]
+  },
+  "drawer":{
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer":{
+    "children":[
+      "menu-item#category-home"
+    ],
+    "props":{
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.col#logo-mobile":{
+    "children":["logo#mobile"]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logoestacaostore.svg",
+      "width": "150"
+    }
   }
-
-
 }
