@@ -1,0 +1,22 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "children": [
+            "menu-item#novidades"
+        ]
+    },
+    "menu-item#novidades": {
+        "props": {
+            "id": "menu-item-shop",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Novidades",
+                "text": "Nividades"
+            }
+        }
+    }
+}

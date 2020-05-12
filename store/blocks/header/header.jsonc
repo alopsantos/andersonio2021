@@ -1,82 +1,76 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"],
-    "props":{"blockClass":"als-menu"}
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
     "children": [
-      "sticky-layout#desktop"
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "sticky-layout#3-deskotp"
     ]
   },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
-    "children": ["flex-layout.row#desktop"]
+
+  "flex-layout.row#1-desktop":{
+    "children":["notification.bar#home"],
+    "props":{
+      "fullWidth": "true"
+    }
   },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass":"als-menu"
-    },
-    "children": [
-      "flex-layout.col#spacer",
+  "notification.bar#home":{
+    "props":{
+      "content": "Compras em ambiente 100% seguro"
+    }
+  },
+
+  "flex-layout.row#2-desktop":{
+    "children":[
       "flex-layout.col#logo-desktop",
       "search-bar",
-      "flex-layout.col#spacer",
       "login",
-      "minicart.v2",
-      "flex-layout.col#spacer"
+      "minicart.v2"
     ]
   },
-  "flex-layout.col#spacer": {
+  "flex-layout.col#logo-desktop":{
+    "props":{"verticalAlign": "middle"},
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logoestacaostore.svg",
+      "width": "205"
+    }
+  },
+  "flex-layout.col#spacer":{
     "props": {
       "width": "grow"
     }
   },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
+
+
+  "sticky-layout#3-deskotp":{
+    "props":{
+      "blockClass": "sticky-header"
     },
-    "children": ["logo"]
+    "children": ["flex-layout.row#3-desktop"]
   },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "assets/estacaostorelogo.svg",
-      "width": "205"
-    }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
+  "flex-layout.row#3-desktop":{
+    "props":{
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign":"center",
       "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
+      "preventVerticalStretch": true,
       "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites"
+    ]
   }
+
+
 }

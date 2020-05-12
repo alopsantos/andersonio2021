@@ -1,9 +1,0 @@
-{
-  "vtex.menu@2.x:menu#footer-menu-mobile": {
-    "props": {
-      "orientation": "horizontal",
-      "blockClass": "als-footer-menu"
-    },
-    "children": []
-  }
-}
