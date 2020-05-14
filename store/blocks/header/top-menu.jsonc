@@ -92,7 +92,7 @@
             "iconProps": {
                 "id": "als-icon-vestidos",
                 "size": 32,
-                "viewBox": "0 0 14 20",
+                "viewBox": "0 0 13 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             }
@@ -166,7 +166,7 @@
                 "text": "MACACÃO"
             },
             "iconProps": {
-                "id": "als-icon-vestidos",
+                "id": "als-icon-macacao",
                 "size": 32,
                 "viewBox": "0 0 14 20",
                 "activeClassName": "rebel-pink",
@@ -294,14 +294,14 @@
             "highlight": true,
             "blockClass": "menu-categoria-icone",
             "itemProps": {
-                "categoryId": 100006,
+                "categoryId": 100009,
                 "tagTitle": "Camisa",
                 "text": "CAMISA"
             },
             "iconProps": {
                 "id": "als-icon-camisa",
                 "size": 32,
-                "viewBox": "0 0 14 20",
+                "viewBox": "0 0 16 16",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
             }
