@@ -1,12 +1,42 @@
 {
   "store.home": {
     "blocks": [
+      "list-context.image-list#demo",
+      "__fold__.experimentalLazyAssets",
       "flex-layout.row#banner",
       "shelf#novidades",
       "shelf#promocoes",
       "flex-layout.row#social",
       "newsletter"
     ]
+  },
+  "list-context.image-list#demo":{
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193829/Novidades-Outono-EstacaoStore-2020.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193830/Outono-Estacao-Store-2020.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
   },
 
 
@@ -52,6 +82,12 @@
       "blockClass": "bannerhome"
     }
   },
+
+
+
+
+
+
   "flex-layout.row#social": {
     "children": [
       "image#facebook",

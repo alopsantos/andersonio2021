@@ -18,8 +18,6 @@
       "sticky-layout#3-deskotp"
     ]
   },
-
-
   "flex-layout.row#1-desktop": {
     "children": [
       "notification.bar#ambiente",
@@ -51,9 +49,6 @@
       "content": "Tire suas dúvidas, fale conosco no chat"
     }
   },
-
-
-
   "flex-layout.row#2-desktop": {
     "children": [
       "flex-layout.col#logo-desktop",
@@ -89,9 +84,6 @@
       "vtex.menu@2.x:menu#menu-usuario"
     ]
   },
-
-
-
   "sticky-layout#3-deskotp": {
     "props": {
       "blockClass": "sticky-header"
@@ -113,18 +105,20 @@
       "vtex.menu@2.x:menu#websites"
     ]
   },
-
-
-  "header-layout.mobile":{
-    "children": ["sticky-layout#1-mobile"]
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
   },
-  "sticky-layout#1-mobile":{
-    "children":["flex-layout.row#1-mobile"]
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
-  "flex-layout.row#1-mobile":{
-    "children":[
+  "flex-layout.row#1-mobile": {
+    "children": [
       "flex-layout.col#drawer",
-      "flex-layout.col#logo-mobile",      
+      "flex-layout.col#logo-mobile",
       "minicart.v2"
     ],
     "props": {
@@ -134,22 +128,47 @@
       "fullWidth": true
     }
   },
-  "flex-layout.col#drawer":{
-    "children": ["drawer"]
+  "flex-layout.col#drawer": {
+    "children": [
+      "drawer"
+    ]
   },
-  "drawer":{
-    "children": ["menu#drawer"]
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
   },
-  "menu#drawer":{
-    "children":[
-      "menu-item#category-home"
+  "menu#drawer": {
+    "children": [
+      "menu-item#novidadesc",
+      "menu-item#promocoesc",
+      "menu-item#vestidosc",
+      "menu-item#blusasc",
+      "menu-item#blazerc",
+      "menu-item#conjuntoc",
+      "menu-item#macacaoc",
+      "menu-item#moletomc",
+      "menu-item#jaquetac",
+      "menu-item#casacoc",
+      "menu-item#tricotc",
+      "menu-item#cardigamc",
+      "menu-item#calcac",
+      "menu-item#camisac",
+      "menu-item#tshirtc",
+      "menu-item#croppedc",
+      "menu-item#bodyc",
+      "menu-item#saiasc",
+      "menu-item#shortsc",
+      "menu-item#acessoriosc"
     ],
-    "props":{
+    "props": {
       "orientation": "vertical"
     }
   },
-  "flex-layout.col#logo-mobile":{
-    "children":["logo#mobile"]
+  "flex-layout.col#logo-mobile": {
+    "children": [
+      "logo#mobile"
+    ]
   },
   "logo#mobile": {
     "props": {
