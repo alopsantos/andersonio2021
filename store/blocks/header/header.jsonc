@@ -16,7 +16,10 @@
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-deskotp"
-    ]
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.row#1-desktop": {
     "children": [
@@ -54,9 +57,13 @@
       "flex-layout.col#logo-desktop",
       "search-bar",
       "flex-layout.col#menu-usuario",
-      "login",
       "minicart.v2"
-    ]
+    ],
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
