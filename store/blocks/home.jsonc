@@ -16,8 +16,8 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/193829/Novidades-Outono-EstacaoStore-2020.jpg"
+          "image": "assets/banner-1.jpg",
+          "mobileImage": "assets/banner-1-mobile.jpg"
         },
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
