@@ -17,7 +17,10 @@
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "image"
-    ]
+    ],
+    "props": {
+      "blockClass": "als-footer"
+    }
   },
   "image": {
     "props": {
@@ -103,13 +106,15 @@
     "children": [
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile",
-      "flex-layout.row#3-footer-mobile"
+      "flex-layout.row#3-footer-mobile",
+      "flex-layout.row#4-footer-mobile"
     ]
   },
   "flex-layout.row#1-footer-mobile": {
     "children": [
       "image"
-    ]
+    ],
+    "props":{"blockClass": "als-footer"}
   },
   "flex-layout.row#2-footer-mobile": {
     "props": {
@@ -122,14 +127,26 @@
   },
   "flex-layout.row#3-footer-mobile": {
     "children": [
-      "social-networks",
-      "rich-text#empresa"
+      "social-networks"
+    ]
+  },
+  "flex-layout.row#4-footer-mobile": {
+    "children": [
+      "rich-text#empresa-mobile"
     ],
     "props": {
-      "blockClass": "payment-methods",
+      "blockClass": "credits",
       "paddingTop": 4,
       "paddingBottom": 4,
       "rowGap": 4
+    }
+  },
+  "rich-text#empresa-mobile": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Estação Store Comercio Artigos do Vestuario \n Rua dos estudantes, 1906, sala 01 | Santa Terezinha de Itaipu - Pr \n Cnpj 72044290000186",
+      "blockClass": "empresa-titulo-mobile"
     }
   }
 }

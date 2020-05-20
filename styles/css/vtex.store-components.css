@@ -121,3 +121,6 @@
     align-items: center;
     background-color: orange;
   }
+  .searchBarIcon--search{
+    color: #ef1c8f;
+  }

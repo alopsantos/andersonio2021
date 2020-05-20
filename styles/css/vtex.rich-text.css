@@ -67,6 +67,16 @@
     font-weight: 700;
   }
   
+  .paragraph--empresa-titulo{
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .paragraph--empresa-titulo-mobile{
+    font-size: 0.7rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
   @media only screen and (min-width: 640px) {
     .container--question .strong {
       font-size: 40px;

@@ -39,3 +39,11 @@
 .accordionIcon--isOpen{
     
 }
+.styledLinkContainer--als-footer-title{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.styledLink--als-footer-title{
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
