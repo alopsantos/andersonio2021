@@ -17,18 +17,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-promocoes",
             "itemProps": {
                 "categoryId": 100018,
                 "tagTitle": "Promoções",
                 "text": "PROMOÇÕES"
-            },
-            "iconProps": {
-                "id": "als-icon-promocoes",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
