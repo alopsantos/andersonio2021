@@ -29,18 +29,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-vestidos",
             "itemProps": {
                 "categoryId": 100004,
                 "tagTitle": "Vestidos",
                 "text": "VESTIDOS"
-            },
-            "iconProps": {
-                "id": "als-icon-vestidos",
-                "size": 32,
-                "viewBox": "0 0 13 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -48,18 +41,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-blusas",
             "itemProps": {
                 "categoryId": 100001,
                 "tagTitle": "Blusas",
                 "text": "BLUSAS"
-            },
-            "iconProps": {
-                "id": "als-icon-blusas",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -67,18 +53,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-blazer",
             "itemProps": {
                 "categoryId": 100021,
                 "tagTitle": "Blazer",
                 "text": "BLAZER"
-            },
-            "iconProps": {
-                "id": "als-icon-blazer",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -86,18 +65,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-conjunto",
             "itemProps": {
                 "categoryId": 100024,
                 "tagTitle": "Conjunto",
                 "text": "CONJUNTO"
-            },
-            "iconProps": {
-                "id": "als-icon-conjunto",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -105,18 +77,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-macacao",
             "itemProps": {
                 "categoryId": 100014,
                 "tagTitle": "Macacão",
                 "text": "MACACÃO"
-            },
-            "iconProps": {
-                "id": "als-icon-macacao",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -124,18 +89,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-moletom",
             "itemProps": {
                 "categoryId": 100012,
                 "tagTitle": "Moletom",
                 "text": "MOLETOM"
-            },
-            "iconProps": {
-                "id": "als-icon-moletom",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -143,18 +101,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-jaqueta",
             "itemProps": {
                 "categoryId": 100026,
                 "tagTitle": "Jaqueta",
                 "text": "JAQUETA"
-            },
-            "iconProps": {
-                "id": "als-icon-jaqueta",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -162,18 +113,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-casaco",
             "itemProps": {
                 "categoryId": 100036,
                 "tagTitle": "Casaco",
                 "text": "CASACO"
-            },
-            "iconProps": {
-                "id": "als-icon-casaco",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -181,18 +125,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-tricot",
             "itemProps": {
                 "categoryId": 100005,
                 "tagTitle": "Tricot",
                 "text": "TRICOT"
-            },
-            "iconProps": {
-                "id": "als-icon-tricot",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -200,18 +137,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-cardigam",
             "itemProps": {
                 "categoryId": 100011,
                 "tagTitle": "Cardigam",
                 "text": "CARDIGAM"
-            },
-            "iconProps": {
-                "id": "als-icon-cardigam",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -219,18 +149,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-calca",
             "itemProps": {
                 "categoryId": 100003,
                 "tagTitle": "Calça",
                 "text": "CALÇA"
-            },
-            "iconProps": {
-                "id": "als-icon-calca",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -238,18 +161,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-camisa",
             "itemProps": {
                 "categoryId": 100009,
                 "tagTitle": "Camisa",
                 "text": "CAMISA"
-            },
-            "iconProps": {
-                "id": "als-icon-camisa",
-                "size": 32,
-                "viewBox": "0 0 16 16",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -257,18 +173,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-tshirt",
             "itemProps": {
                 "categoryId": 100005,
                 "tagTitle": "T-Shirt",
                 "text": "T-SHIRT"
-            },
-            "iconProps": {
-                "id": "als-icon-tshirt",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -276,18 +185,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-cropped",
             "itemProps": {
                 "categoryId": 100023,
                 "tagTitle": "Cropped",
                 "text": "CROPPED"
-            },
-            "iconProps": {
-                "id": "als-icon-cropped",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -295,18 +197,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-body",
             "itemProps": {
                 "categoryId": 100022,
                 "tagTitle": "Body",
                 "text": "BODY"
-            },
-            "iconProps": {
-                "id": "als-icon-body",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -314,18 +209,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-saias",
             "itemProps": {
                 "categoryId": 100007,
                 "tagTitle": "Saias",
                 "text": "SAIAS"
-            },
-            "iconProps": {
-                "id": "als-icon-saias",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -333,18 +221,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-shorts",
             "itemProps": {
                 "categoryId": 100002,
                 "tagTitle": "Shorts",
                 "text": "SHORTS"
-            },
-            "iconProps": {
-                "id": "als-icon-shorts",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
@@ -352,18 +233,11 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-acessorios",
             "itemProps": {
                 "categoryId": 100041,
                 "tagTitle": "Acessórios",
                 "text": "ACESSÓRIOS"
-            },
-            "iconProps": {
-                "id": "als-icon-acessorios",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     }
