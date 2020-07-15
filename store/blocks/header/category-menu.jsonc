@@ -3,20 +3,13 @@
         "props": {
             "type": "category",
             "highlight": true,
-            "blockClass": "menu-categoria",
+            "blockClass": "menu-mobile-categoria-novidades",
             "itemProps": {
                 "type": "internal",
                 "href": "#",
                 "categoryId": 100016,
                 "tagTitle": "Novidades",
                 "text": "NOVIDADES"
-            },
-            "iconProps": {
-                "id": "als-icon-novidades-star",
-                "size": 32,
-                "viewBox": "0 0 14 20",
-                "activeClassName": "rebel-pink",
-                "mutedClassName": "c-action-primary"
             }
         }
     },
