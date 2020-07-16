@@ -19,7 +19,7 @@
   }
   
   .newsletter {
-    background-color: #03054e;
+    background-color: #F8F8F8;
     max-width: 1528px;
     margin: 0 auto;
   }
@@ -28,15 +28,15 @@
     padding: 60px 10px;
   }
   
-  .label {
-    color: #fff;
+  .newsletter .label {
+    color: #424245;
     font-size: 26px;
   }
   
   .inputGroup {
     padding-bottom: 4px;
     display: flex;
-    color: #fff;
+    color: #424245;
   }
   
   .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
@@ -46,20 +46,17 @@
   }
   
   .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-    color: #fff;
+    color: #424245;
     font-size: 16px;
   }
   
   .inputGroup :global(.vtex-button) {
     background-color: transparent;
-    color: #fff;
-    border: none;
+    color: #424245;
+    border: 1px solid #424245;
     margin-right: -24px;
   }
   
-  .buttonContainer {
-    padding-top: 0px;
-  }
   
   .imageElement--storePrint {
     max-height: 300px;

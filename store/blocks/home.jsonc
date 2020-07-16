@@ -128,5 +128,13 @@
       "alt": "Estacao Store - 2020",
       "title":"Atacado"
     }
+  },
+
+  "newsletter":{
+    "props": {
+      "label": "News! \n Receba nossas novidades em primeira mão!",
+      "placeholder": "Digite seu melhor e-email",
+      "submit": "CADASTRAR"
+    }
   }
 }
