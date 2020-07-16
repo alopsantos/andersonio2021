@@ -22,7 +22,7 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .flexRowContent--main-header-mobile {
@@ -95,4 +95,26 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+.flexRowContent--main-header-desktop{
+  align-items: center;
+  min-height: 90px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.flexRow--credits{
+  background-color: #FEAEDA;
+  margin-top: 10px;
+  color: #fff;
+}
+.flexRow--als-footer{
+  margin-top: 20px;
+}
+.flexRow--als-search-bar{
+  background: #f0f0f0;
+  /*background: rgba(240, 240, 240, 0.8);*/
+  backdrop-filter: blur(8px);
+}
+.flexRowContent--main-header-mobile{
+  box-shadow: none !important;
 }

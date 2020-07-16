@@ -196,7 +196,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
-            "blockClass": "mr4",
+            "blockClass": "als-footer-title",
             "itemProps": {
                 "type":"internal",
                 "href": "#",
@@ -264,6 +264,7 @@
             "type": "custom",
             "iconId": null,
             "highlight": false,
+            "blockClass": "als-footer-title",
             "itemProps": {
                 "type":"internal",
                 "href": "#",
@@ -305,6 +306,7 @@
             "type": "custom",
             "iconId": null,
             "highlight":false,
+            "blockClass": "als-footer-title",
             "itemProps":{
                 "type":"internal",
                 "href":"#",
@@ -333,6 +335,7 @@
             "type": "custom",
             "iconId": null,
             "highlight":false,
+            "blockClass": "als-footer-title",
             "itemProps":{
                 "type":"internal",
                 "href":"#",
@@ -361,6 +364,7 @@
             "type": "custom",
             "iconId": null,
             "highlight":false,
+            "blockClass": "als-footer-title",
             "itemProps":{
                 "type":"internal",
                 "href":"#",
@@ -390,6 +394,7 @@
             "type": "custom",
             "iconId": null,
             "highlight":false,
+            "blockClass": "als-footer-title",
             "itemProps":{
                 "type":"internal",
                 "href":"#",
@@ -419,6 +424,7 @@
             "type": "custom",
             "iconId": null,
             "highlight":false,
+            "blockClass": "als-footer-title",
             "itemProps":{
                 "type":"internal",
                 "href":"#",

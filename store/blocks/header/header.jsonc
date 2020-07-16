@@ -16,7 +16,10 @@
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
       "sticky-layout#3-deskotp"
-    ]
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
   },
   "flex-layout.row#1-desktop": {
     "children": [
@@ -54,9 +57,13 @@
       "flex-layout.col#logo-desktop",
       "search-bar",
       "flex-layout.col#menu-usuario",
-      "login",
       "minicart.v2"
-    ]
+    ],
+    "props": {
+      "blockClass": "main-header-desktop",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -112,26 +119,23 @@
   },
   "sticky-layout#1-mobile": {
     "children": [
-      "flex-layout.row#1-mobile"
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
     ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
-      "flex-layout.col#drawer",
-      "flex-layout.col#logo-mobile",
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "flex-layout.col#drawer": {
-    "children": [
-      "drawer"
-    ]
   },
   "drawer": {
     "children": [
@@ -165,17 +169,25 @@
       "orientation": "vertical"
     }
   },
-  "flex-layout.col#logo-mobile": {
-    "children": [
-      "logo#mobile"
-    ]
+  "login": {
+    "props": {
+      "icon-profile": "als-icon-novidades-star",
+      "size": 32,
+      "viewBox": "0 0 14 20",
+      "activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    }
   },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/logoestacaostore.svg",
-      "width": "150"
+      "width": "205"
     }
+  },
+  "flex-layout.row#2-mobile":{
+    "children":["search-bar"],
+    "props":{"blockClass":"als-search-bar"}
   }
 }

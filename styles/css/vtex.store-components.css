@@ -1,13 +1,14 @@
 .notificationBarContainer {
-    background-color: #e6f1e6;
+    background-color: #f5f5f5;
     color: #03034e;
     font-weight: 700;
     font-size: 12px;
     text-decoration: underline;
+    height: 30px;
   }
   
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-    max-width: 208px;
+    /*max-width: 208px;*/
   }
   
   .infoCardContainer--info-card-home {
@@ -115,4 +116,11 @@
     font-weight: bold;
     font-size: 30px;
   }
-  
+  .flexRowContent--main-header-desktop .container{
+    min-height: 92px;
+    align-items: center;
+    background-color: orange;
+  }
+  .searchBarIcon--search{
+    color: #ef1c8f;
+  }

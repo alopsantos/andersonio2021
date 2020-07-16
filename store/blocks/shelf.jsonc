@@ -6,14 +6,15 @@
         "props": {
           "category": "100031/100016",
           "orderBy": "OrderByReleaseDateDESC",
-          "paginationDotsVisibility": "desktopOnly",
+          "paginationDotsVisibility": "desktopOnly",      
           "productList": {
+            "gap": "ph3",
             "maxItems": 15,
             "itemsPerPage": 5,
-            "minItemsPerPage": 1,
-            "scroll": "BY_PAGE",
-            "arrows": true,
-            "titleText": ""
+            "minItemsPerPage": 2,
+            "scroll": "ONE_BY_ONE",
+            "arrows": false,
+            "titleText": "Nossas Novidades"
           }
         }
       },
