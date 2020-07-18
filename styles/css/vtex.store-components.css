@@ -21,7 +21,7 @@
   .newsletter {
     background-color: #F8F8F8;
     max-width: 1528px;
-    margin: 0 auto;
+    margin: 15px auto 0;
   }
   
   .newsletter .container {
@@ -69,7 +69,7 @@
   
   @media only screen and (min-width: 640px) {
     .newsletter .container {
-      padding: 140px;
+      
     }
   
     .label {
@@ -120,4 +120,7 @@
   }
   .searchBarIcon--search{
     color: #ef1c8f;
+  }
+  .imageElementLink--bannerhome {
+    padding: 4px;
   }

@@ -1,8 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      "__fold__.experimentalLazyAssets",
+      
       "flex-layout.row#banner",
       "shelf#novidades",
       "shelf#promocoes",
@@ -99,40 +98,44 @@
   },
   "image#facebook": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169749/facebook.jpg?v=636806490850700000",
+      "src": "assets/home-facebook.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
-      "title":"Facebook"
+      "title":"Facebook",
+      "blockClass": "bannerhome"
     }
   },
   "image#instagram": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169750/instagram.jpg?v=636806491198200000",
+      "src": "assets/home-instagram.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
-      "title":"Instagram"
+      "title":"Instagram",
+      "blockClass": "bannerhome"
     }
   },
   "image#pinterst": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169751/pinterest.jpg?v=636806491470200000",
+      "src": "assets/home-pinterest.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
-      "title":"Pinterest"
+      "title":"Pinterest",
+      "blockClass": "bannerhome"
     }
   },
   "image#atacado": {
     "props": {
-      "src": "https://estacaodamodastore.vteximg.com.br/arquivos/ids/169752/atacado.jpg?v=636806491683200000",
+      "src": "assets/home-atacado.jpg",
       "link": "#",
       "alt": "Estacao Store - 2020",
-      "title":"Atacado"
+      "title":"Atacado",
+      "blockClass": "bannerhome"
     }
   },
 
   "newsletter":{
     "props": {
-      "label": "News! \n Receba nossas novidades em primeira mão!",
+      "label": "News! Receba nossas novidades em primeira mão!",
       "placeholder": "Digite seu melhor e-email",
       "submit": "CADASTRAR"
     }

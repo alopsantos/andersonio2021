@@ -9,31 +9,42 @@
           "paginationDotsVisibility": "desktopOnly",      
           "productList": {
             "gap": "ph3",
-            "maxItems": 15,
+            "maxItems": 10,
             "itemsPerPage": 5,
             "minItemsPerPage": 2,
-            "scroll": "ONE_BY_ONE",
-            "arrows": false,
+            "scroll": "BY_PAGE",
+            "arrows": true,
             "titleText": "Nossas Novidades"
           }
         }
       },
       "shelf#promocoes": {
         "blocks": [
-          "product-summary.shelf"
+          "product-summary.shelf#promocao"
         ],
         "props": {
           "category": "100031/100018",
           "orderBy": "OrderByReleaseDateDESC",
           "paginationDotsVisibility": "desktopOnly",
           "productList": {
-            "maxItems": 15,
+            "gap": "ph3",
+            "maxItems": 10,
             "itemsPerPage": 5,
-            "minItemsPerPage": 1,
+            "minItemsPerPage": 2,
             "scroll": "BY_PAGE",
             "arrows": true,
-            "titleText": ""
+            "titleText": "Promoções"
           }
+        }
+      },
+      "product-summary.shelf#promocao":{
+        "children":[
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-price"
+        ],
+        "props":{
+          "blockClass": "prateleira-home"
         }
       }
 }
