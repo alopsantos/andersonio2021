@@ -118,7 +118,7 @@
     align-items: center;
     background-color: orange;
   }
-  .searchBarIcon--search{
+  .searchBarIcon--search:global(.vtex-styleguide-9-x-hideDecorators){
     color: #ef1c8f;
   }
   .imageElementLink--bannerhome {

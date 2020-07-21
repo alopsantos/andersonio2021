@@ -12,7 +12,7 @@
     "children": ["stack-layout#brand"]
   },
   "stack-layout#brand": {
-    "children": ["product-images", "product-brand"]
+    "children": ["product-images"]
   },
   "product-brand": {
     "props": {
@@ -41,8 +41,7 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "showValueNameForImageVariation": true,
-
+      "showValueNameForImageVariation": false,
       "showVariationsErrorMessage": "true"
     }
   }

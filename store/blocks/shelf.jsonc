@@ -40,6 +40,7 @@
       "product-summary.shelf#promocao":{
         "children":[
           "product-summary-image",
+          //"product-summary-buy-button",
           "product-summary-name",
           "product-summary-price"
         ],

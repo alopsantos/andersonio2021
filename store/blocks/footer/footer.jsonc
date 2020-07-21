@@ -7,7 +7,7 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-1-desktop", //logo
+      //"flex-layout.row#footer-1-desktop", //logo
       "flex-layout.row#footer-2-desktop", //menu
       "flex-layout.row#footer-3-desktop", //social
       "flex-layout.row#footer-4-desktop" //creditos
@@ -104,7 +104,7 @@
   //mobile
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
+      //"flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile",
       "flex-layout.row#3-footer-mobile",
       "flex-layout.row#4-footer-mobile"
