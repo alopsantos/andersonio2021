@@ -79,12 +79,21 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-price",
-      "product-summary-sku-selector",
+      //"product-summary-sku-selector",
       "product-summary-buy-button",
       "product-rating-inline"
     ],
     "props":{
+      "orderBy": "OrderByReleaseDateDESC",
       "blockClass": "prateleira-home"
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "hoverImageLabel": "imageLabel",
+      "aspectRatio": "3:4",
+      "badgeText": "Off"
     }
   }
 }

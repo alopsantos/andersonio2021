@@ -240,5 +240,29 @@
                 "text": "ACESSÓRIOS"
             }
         }
+    },
+    "menu-item#pedidosc": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "blockClass": "menu-mobile-categoria-pedidos",
+            "itemProps": {
+                "categoryId": 100041,
+                "tagTitle": "pedidos",
+                "text": "MEUS PEDIDOS"
+            }
+        }
+    },
+    "menu-item#contatoc": {
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "blockClass": "menu-mobile-categoria-acessorios",
+            "itemProps": {
+                "categoryId": 100041,
+                "tagTitle": "Contato",
+                "text": "(45) 3541-2940"
+            }
+        }
     }
 }

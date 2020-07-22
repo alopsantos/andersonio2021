@@ -163,7 +163,9 @@
       "menu-item#bodyc",
       "menu-item#saiasc",
       "menu-item#shortsc",
-      "menu-item#acessoriosc"
+      "menu-item#acessoriosc",
+      "menu-item#pedidosc",
+      "menu-item#contatoc"
     ],
     "props": {
       "orientation": "vertical"
