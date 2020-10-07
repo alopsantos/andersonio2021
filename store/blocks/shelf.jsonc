@@ -1,51 +1,86 @@
 {
-    "shelf#novidades": {
-        "blocks": [
-          "product-summary.shelf"
-        ],
-        "props": {
-          "category": "100031/100016",
-          "orderBy": "OrderByReleaseDateDESC",
-          "paginationDotsVisibility": "desktopOnly",      
-          "productList": {
-            "gap": "ph3",
-            "maxItems": 10,
-            "itemsPerPage": 5,
-            "minItemsPerPage": 2,
-            "scroll": "BY_PAGE",
-            "arrows": true,
-            "titleText": "Nossas Novidades"
-          }
-        }
-      },
-      "shelf#promocoes": {
-        "blocks": [
-          "product-summary.shelf#promocao"
-        ],
-        "props": {
-          "category": "100031/100018",
-          "orderBy": "OrderByReleaseDateDESC",
-          "paginationDotsVisibility": "desktopOnly",
-          "productList": {
-            "gap": "ph3",
-            "maxItems": 10,
-            "itemsPerPage": 5,
-            "minItemsPerPage": 2,
-            "scroll": "BY_PAGE",
-            "arrows": true,
-            "titleText": "Promoções"
-          }
-        }
-      },
-      "product-summary.shelf#promocao":{
-        "children":[
-          "product-summary-image",
-          //"product-summary-buy-button",
-          "product-summary-name",
-          "product-summary-price"
-        ],
-        "props":{
-          "blockClass": "prateleira-home"
-        }
+  "shelf#novidades": {
+    "blocks": [
+      "product-summary.shelf#clone"
+    ],
+    "props": {
+      "category": "100031/100053",
+      "orderBy": "OrderByReleaseDateDESC",
+      "paginationDotsVisibility": "always",
+      "productList": {
+        "gap": "ph3",
+        "maxItems": 30,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Novidades",
+        "showTitle": true
       }
+    }
+  },
+  "product-summary.shelf#clone": {
+    "props": {},
+    "children": [
+      "stack-layout#prodsumclone",
+      "product-summary-name",
+      "add-to-cart-button#clone",
+      "product-summary-price"
+    ]
+  },
+  "stack-layout#prodsumclone": {
+    "children": [
+      "product-summary-image#shelfclone"
+    ]
+  },
+  "product-summary-image#shelfclone": {
+    "props": {
+      "showBadge": true,
+      "aspectRatio": "3:4",
+      "maxHeight": 440
+    }
+  },
+  "product-summary-image": {
+    "props": {
+      "hoverImageLabel": "ImageOver",
+      "height": 440,
+      "width": 331
+    }
+  },
+  "add-to-cart-button#clone": {
+    "props": {
+      "text": "COMPRAR"
+    }
+  },
+  "product-summary-price": {},
+  "shelf#promocoes": {
+    "blocks": [
+      "product-summary.shelf#promocao"
+    ],
+    "props": {
+      "category": "100031/100018",
+      "orderBy": "OrderByReleaseDateDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "gap": "ph3",
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Promoções"
+      }
+    }
+  },
+  "product-summary.shelf#promocao": {
+    "children": [
+      "product-summary-image",
+      //"product-summary-buy-button",
+      "product-summary-name",
+      "product-summary-price"
+    ],
+    "props": {
+      "blockClass": "prateleira-home"
+    }
+  }
 }

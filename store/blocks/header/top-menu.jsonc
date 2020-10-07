@@ -23,6 +23,7 @@
             "menu-item#acessorios"
         ]
     },
+    
     "menu-item#novidades2": {
         "props": {
             "id": "menu-item-shop",
